@@ -1,0 +1,151 @@
+/* Reset and Global Styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+/* Container Setup: 100vh and Centered with Flexbox */
+.login-container {
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+}
+
+/* Left Section Styling (Blue illustration panel) */
+.left-section {
+    flex: 1;
+    background-color: #7ac5f8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.left-section img {
+    width: 75%;
+    height: auto;
+    max-height: 450px;
+}
+
+/* Right Section Styling (Form panel) */
+.right-section {
+    flex: 1;
+    background-color: #f8fbff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+/* Form Wrapper Alignment */
+.form-wrapper {
+    width: 380px;
+    padding: 20px;
+}
+
+.form-wrapper h1 {
+    font-size: 32px;
+    font-weight: 700;
+    color: black;
+    text-align: center;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    font-size: 15px;
+    color: #7d8895;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+/* Input Fields Styling */
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+}
+
+.input-group label {
+    font-size: 12px;
+    font-weight: 600;
+    color: #8c98a4;
+    margin-bottom: 8px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+}
+
+.input-group input {
+    width: 100%;
+    padding: 14px 16px;
+    border: 1px solid #e2e8f0;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #ffffff;
+    color: #333333;
+    outline: none;
+    transition: border-color 0.2s;
+}
+
+.input-group input:focus {
+    border-color: #0099ff;
+}
+
+.input-group input::placeholder {
+    color: #b0bec5;
+}
+
+/* Form Options (Forgot Password) */
+.form-options {
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 25px;
+}
+
+.forgot-link {
+    font-size: 12px;
+    color: #4a5568;
+    text-decoration: none;
+}
+
+.forgot-link:hover {
+    color: #0099ff;
+}
+
+/* Login Button */
+.btn-login {
+    width: 100%;
+    padding: 14px;
+    background-color: #0099ff;
+    color: #ffffff;
+    border: none;
+    border-radius: 8px;
+    font-size: 16px;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 12px rgba(0, 153, 255, 0.3);
+    transition: background-color 0.2s;
+}
+
+.btn-login:hover {
+    background-color: #0082db;
+}
+
+/* Register Link Footer */
+.register-text {
+    text-align: center;
+    margin-top: 25px;
+    font-size: 13px;
+    color: #718096;
+}
+
+.register-text a {
+    color: #0099ff;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+.register-text a:hover {
+    text-decoration: underline;
+}
